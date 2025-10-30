@@ -1,0 +1,123 @@
+type: collection.insomnia.rest/5.0
+name: Scratch Pad
+meta:
+  id: wrk_scratchpad
+  created: 1761093162061
+  modified: 1761093162061
+  description: ""
+collection:
+  - url: https://dummyjson.com/products
+    name: Listar XingLing
+    meta:
+      id: req_2c36882a6d434c6d96ba88260c865e82
+      created: 1761171980583
+      modified: 1761173422684
+      isPrivate: false
+      description: ""
+      sortKey: -1761171980583
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/11.6.2
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: " https://dummyjson.com/products/add"
+    name: Adicionar XingLing
+    meta:
+      id: req_6c721afa638943d786c727c6e9a2edd1
+      created: 1761173352387
+      modified: 1761173481984
+      isPrivate: false
+      description: ""
+      sortKey: -1761173352387
+    method: POST
+    body:
+      mimeType: application/json
+      text: |2-
+         {
+          "title": "Notebook Gamer X",
+          "price": 5999,
+          "brand": "TechPower"
+        }
+    headers:
+      - name: Content-Type
+        value: application/json
+      - name: User-Agent
+        value: insomnia/11.6.2
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: " https://dummyjson.com/products/1"
+    name: Atualizar XingLing
+    meta:
+      id: req_a25e275d350849d8a6e4a5adad75eefd
+      created: 1761173662852
+      modified: 1761175986936
+      isPrivate: false
+      description: ""
+      sortKey: -1761173662852
+    method: PUT
+    body:
+      mimeType: application/json
+      text: |2-
+         {
+          "price": 4500
+        }
+    headers:
+      - name: Content-Type
+        value: application/json
+      - name: User-Agent
+        value: insomnia/11.6.2
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: " https://dummyjson.com/products/1"
+    name: Excluir XingLing
+    meta:
+      id: req_152e92c0dbe54ed78adc93a645c1fd7f
+      created: 1761176298243
+      modified: 1761176394259
+      isPrivate: false
+      description: ""
+      sortKey: -1761176298243
+    method: DELETE
+    headers:
+      - name: User-Agent
+        value: insomnia/11.6.2
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+cookieJar:
+  name: Default Jar
+  meta:
+    id: jar_99d30891da4bdcebc63947a8fc17f076de878684
+    created: 1761093394290
+    modified: 1761093394290
+environments:
+  name: Base Environment
+  meta:
+    id: env_99d30891da4bdcebc63947a8fc17f076de878684
+    created: 1761093394287
+    modified: 1761093394287
+    isPrivate: false
